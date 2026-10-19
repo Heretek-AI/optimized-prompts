@@ -1,0 +1,19 @@
+# Reference and source leak materials (never commit)
+review/
+
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Build, dependency, and runtime artifacts
+node_modules/
+dist/
+build/
+*.log
+.env
+.env.*
